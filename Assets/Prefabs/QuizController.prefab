@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4703660283264288754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7494797558412323634}
+  - component: {fileID: 7133971909741741410}
+  m_Layer: 0
+  m_Name: QuizController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7494797558412323634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4703660283264288754}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.88152, y: -105.262665, z: 799.43024}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7133971909741741410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4703660283264288754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd49058d22f4eee49bec26513b823c07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizQuestions:
+  - image: {fileID: 21300000, guid: 3472b4662cc69094b866fef7b8b93c7b, type: 3}
+    audioClip: {fileID: 8300000, guid: 958377124b4b97e4fbdc6dbc6517c442, type: 3}
+  - image: {fileID: 21300000, guid: 1fc5e2336b1b9ff449cc5d6f7567d0a8, type: 3}
+    audioClip: {fileID: 8300000, guid: 80aa8daeb2f3f6448bff3682ce317fa0, type: 3}
+  - image: {fileID: 21300000, guid: 4d6166f2941fc2741a0b85c12e6e9c22, type: 3}
+    audioClip: {fileID: 8300000, guid: 93eff145b1eda004f90faac98c881435, type: 3}
+  - image: {fileID: 21300000, guid: 5105eede204d089488c5e74724d29c88, type: 3}
+    audioClip: {fileID: 8300000, guid: 9da7258f70c82cf48a0346e3581d683a, type: 3}
+  - image: {fileID: 21300000, guid: bfc49e5b7725a6d458437958dfdff881, type: 3}
+    audioClip: {fileID: 8300000, guid: 53d6e00214e8c3845ace07ea6ebf8ea1, type: 3}
+  - image: {fileID: 21300000, guid: ac854dd1854913a4096447a3e573937e, type: 3}
+    audioClip: {fileID: 8300000, guid: d1cf273d480b8b24ebdf3eb6a291fbc3, type: 3}
+  - image: {fileID: 21300000, guid: 6c9d779b73876ff478bdc002447f3a31, type: 3}
+    audioClip: {fileID: 8300000, guid: 7f54fa7c41f2cd74f9a4981a57e9a518, type: 3}
+  - image: {fileID: 21300000, guid: b97a10c141d55284a985696a42ca93d4, type: 3}
+    audioClip: {fileID: 8300000, guid: acda412ed5fc001489a45ec76a01ed0a, type: 3}
+  - image: {fileID: 21300000, guid: db94988513a1e7d4dac39082012f62c3, type: 3}
+    audioClip: {fileID: 8300000, guid: 1f0a54ca4632b074d9e6b25cc014ff4f, type: 3}
+  quizImagesAll:
+  - {fileID: 21300000, guid: db94988513a1e7d4dac39082012f62c3, type: 3}
+  - {fileID: 21300000, guid: bfc49e5b7725a6d458437958dfdff881, type: 3}
+  - {fileID: 21300000, guid: 6c9d779b73876ff478bdc002447f3a31, type: 3}
+  - {fileID: 21300000, guid: 1fc5e2336b1b9ff449cc5d6f7567d0a8, type: 3}
+  - {fileID: 21300000, guid: ebc454cded26126449a870e4ded0022e, type: 3}
+  - {fileID: 21300000, guid: b97a10c141d55284a985696a42ca93d4, type: 3}
+  - {fileID: 21300000, guid: 3472b4662cc69094b866fef7b8b93c7b, type: 3}
+  - {fileID: 21300000, guid: 5105eede204d089488c5e74724d29c88, type: 3}
+  - {fileID: 21300000, guid: d4153cdbe9f73254fb2b96a4ed952af2, type: 3}
+  - {fileID: 21300000, guid: ac854dd1854913a4096447a3e573937e, type: 3}
+  - {fileID: 21300000, guid: 4d6166f2941fc2741a0b85c12e6e9c22, type: 3}
+  - {fileID: 21300000, guid: 84aba5083ff246848b8deff3b830f0e0, type: 3}
+  - {fileID: 21300000, guid: bf6e4cc86e4c54b4fbd929cc9dd14c3c, type: 3}
